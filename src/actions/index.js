@@ -1,18 +1,18 @@
 export function fetchPostsRequest(){
     return {
-        type: "FETCH_REQUEST"
+        type: "LOADING"
     }
 }
 
 export function fetchPostsSuccess(payload) {
     return {
-        type: "FETCH_SUCCESS",
+        type: "SUCCESS",
         payload
     }
 }
 
 export function fetchPostsError() {
     return {
-        type: "FETCH_ERROR"
+        type: "ERROR"
     }
 }

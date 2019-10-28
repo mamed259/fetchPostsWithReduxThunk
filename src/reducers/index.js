@@ -2,9 +2,9 @@ import {fetchPostsRequest, fetchPostsSuccess, fetchPostsError} from '../actions'
 
 export const reducer = (state = {}, action) => {
     switch (action.type) {
-        case "FETCH_REQUEST":
+        case "LOADING":
             return state;
-        case "FETCH_SUCCESS":
+        case "SUCCESS":
             return {...state, posts: action.payload};
         default:
             return state;
