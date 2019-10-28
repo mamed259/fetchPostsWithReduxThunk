@@ -1,0 +1,11 @@
+.fetching-list{
+  width: 800px;
+  margin: 30px auto;
+  list-style-type: none;
+}
+
+.fetching-list li{
+  border: 1px solid #eeeeee;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
